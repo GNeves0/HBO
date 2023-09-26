@@ -1,0 +1,87 @@
+body{
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: sans-serif;
+
+}
+
+
+
+.topo{
+    background-color: rgb(110, 30, 185);
+    color: white;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.topo a{
+    text-align: left;
+    font-size:18px;
+    text-decoration: none; 
+    color:rgb(110, 30, 185); 
+    background-color:white; 
+    display: inline-block; 
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+
+.img-capa{
+    width: 100%;
+}
+
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.secao img{
+    width: 1024px;
+}
+
+.secao p{
+    text-align: justify;
+}
+
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+    height: 250px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+.imagem-sombra{
+    margin: 20px;
+    box-shadow: 10px 10px 10px #939393;
+    width: 50px;
+}
+
+.informacao{
+    padding: 10px;
+}
+
+.rodape{
+    background-color: rgb(110, 30, 185);
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+}
+
+
+
+
